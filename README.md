@@ -27,5 +27,7 @@ npm run dev
 ```
 - create database
 ```
+create database in phpMyAdmin
+```
 php artisan migrate
 ```
