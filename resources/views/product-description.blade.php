@@ -26,7 +26,7 @@
     </div> --}}
 
     <div>
-        <img src="https://www.magnicenter.com/producto/gafa-de-lectura-plegable-hipster/" alt="Gafas lectura plegable modelo F5">
+        <img src="https://www.magnicenter.com/wp-content/uploads/2020/05/montana-gafas-de-lectura-720x491.jpg" alt="Gafas lectura plegable modelo F5">
     </div>
 
     <h3>Lista detallada de características del producto</h3>
@@ -36,10 +36,9 @@
         <div role="listitem"><span aria-label="2"></span> Dispositivo de enganche recubierto en goma para evitar arañazos a sus gafas</div>
         <div role="listitem"><span aria-label="3"></span> El sistema es plegable y viene acompañado de estuche</div>
         <div role="listitem"><span aria-label="4"></span> Lente en material CR-39 orgánico</div>
+        <div role="listitem"><span aria-label="4"></span> Precio en Euros 25</div>
     </div>
-    <div>
-    <p>Precio en Euros</p>
-    </div>
+
     
 </body>
 </html>
