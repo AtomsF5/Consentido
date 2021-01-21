@@ -5,16 +5,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Descripción de producto</title>
 </head>
-<body>
-    <header>
-    </header>
+    
+<header class="flex justify-center items-center">
+        <div>
+            <div >
+                <h1 class="text-2xl font-medium mt-7">DETALLE DE PRODUCTO</h1>
+            </div>
+            <div>
+                <img src="{{asset('images/LogoConSentido.png')}}" alt="Logo de ConSentido" class="w-32 h-24 ml-3 mt-3">
+            </div>
+        </div>
+</header>
 
+<body>
+           
     <div>
     <button id="buttonAdd" onclick="displayResultAdd()">Carrito de compra</button>
     </div>
 
     <div>
-        <img src="" alt="Gafas lectura peglable modelo F5">
+        <img src="https://www.magnicenter.com/producto/gafa-de-lectura-plegable-hipster/" alt="Gafas lectura peglable modelo F5">
     </div>
 
     <h3>Lista detallada características producto</h3>
