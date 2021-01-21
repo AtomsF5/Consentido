@@ -18,26 +18,28 @@
 </header>
 
 <body>
-           
     <div>
-    <button id="buttonAdd" onclick="displayResultAdd()">Carrito de compra</button>
+        <a href="#" class="bg-indigo-900 px-7 py-1 text-white rounded-sm">CARRITO</a>
+    </div> 
+    {{-- <div>
+        <button id="buttonAdd" onclick="displayResultAdd()">Carrito de compra</button>
+    </div> --}}
+
+    <div>
+        <img src="https://www.magnicenter.com/producto/gafa-de-lectura-plegable-hipster/" alt="Gafas lectura plegable modelo F5">
     </div>
 
-    <div>
-        <img src="https://www.magnicenter.com/producto/gafa-de-lectura-plegable-hipster/" alt="Gafas lectura peglable modelo F5">
+    <h3>Lista detallada de características del producto</h3>
+
+    <div role="list">
+        <div role="listitem"><span aria-label="1"></span> Tamaño de la lente 58 milímetros por 35 milímetros por 132 milímetros de ancho total</div>
+        <div role="listitem"><span aria-label="2"></span> Dispositivo de enganche recubierto en goma para evitar arañazos a sus gafas</div>
+        <div role="listitem"><span aria-label="3"></span> El sistema es plegable y viene acompañado de estuche</div>
+        <div role="listitem"><span aria-label="4"></span> Lente en material CR-39 orgánico</div>
     </div>
-
-    <h3>Lista detallada características producto</h3>
-
-<div role="list">
-    <div role="listitem"><span aria-label="1"></span> Tamaño de la lente – 58 mm x 35 mm x 132 mm Ancho total</div>
-    <div role="listitem"><span aria-label="2"></span> Dispositivo de enganche recubierto en goma para evitar arañazos a sus gafas.</div>
-    <div role="listitem"><span aria-label="3"></span> El sistema es abatible y de quita y pon rápido.</div>
-    <div role="listitem"><span aria-label="4"></span> Lente en material CR-39 orgánico.</div>
-</div>
-<div>
+    <div>
     <p>Precio en Euros</p>
-</div>
+    </div>
     
 </body>
 </html>
