@@ -30,9 +30,10 @@
             <p>Categoria 1</p>
 
             <div>
-                <p>
-                <a href="https://www.magnicenter.com/producto/lupa-mano-convertible-3x/">Lupa de Mano Convertible 3.0 x Aumentos</a>
-                </p>
+               
+                <div>
+                    <img src="https://www.magnicenter.com/wp-content/uploads/2017/11/lupa-convertible_03_1.jpg" alt="Gafas lectura plegable modelo F5">
+                </div>
                 <span>
                     <span>
                         <bdi>58.00&nbsp;
