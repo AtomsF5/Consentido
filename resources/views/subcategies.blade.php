@@ -9,7 +9,7 @@
 <header class="flex justify-center items-center">
     <div>
         <div >
-            <h1 class="text-2xl font-medium mt-7">BIENVENIDOS</h1>
+            <h1 class="text-2xl font-medium mt-7">SUBCATEGORIAS</h1>
         </div>
         <div>
             <img src="{{asset('images/LogoConSentido.png')}}" alt="Logo de ConSentido" class="w-32 h-24 ml-3 mt-3">
@@ -18,22 +18,19 @@
 </header>
 <body>
     <section class="py-5 px-5">
-        <div>
-            <a href="#" class=""><img class="bg-indigo-900 px-5 py-1 text-white rounded-sm" src="{{asset('images/NOSOTROS.svg')}}" alt="Plataforma de venta de productos para personas con discapacidades visuales, esperamos la disfrutes."></a>
-        </div>
+        
         <div>
             <a href="#" class="bg-indigo-900 px-7 py-1 text-white rounded-sm">CARRITO</a>
         </div>
 
         <div>
             <img src="{{asset('images/')}}" alt="">
-            <p>Categoria 1</p>
+            <p>Subcategoria 1</p>
 
             <div>
                
                 <div>
                     <img src="https://www.magnicenter.com/wp-content/uploads/2017/11/lupa-convertible_03_1.jpg" alt="Gafas lectura plegable modelo F5">
-                   
                 </div>
                 <span>
                     <span>
