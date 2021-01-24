@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Descripción de producto</title>
-</head>
-    
+    <link rel="stylesheet" href="{{ mix('css/app.css') }}">
+    <title>Página producto detallado</title>
+</head>    
+
 <header class="flex justify-center items-center">
         <div>
             <div >
@@ -17,13 +19,12 @@
         </div>
 </header>
 
+
 <body>
     <div>
         <a href="#" class="bg-indigo-900 px-7 py-1 text-white rounded-sm">CARRITO</a>
     </div> 
-    {{-- <div>
-        <button id="buttonAdd" onclick="displayResultAdd()">Carrito de compra</button>
-    </div> --}}
+    
 
     <div>
         <img src="https://www.magnicenter.com/wp-content/uploads/2020/05/montana-gafas-de-lectura-720x491.jpg" alt="Gafas lectura plegable modelo F5">
