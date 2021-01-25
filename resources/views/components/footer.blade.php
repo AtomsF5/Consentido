@@ -1,12 +1,12 @@
-<div class="container mx-auto bg-indigo-900 text-white flex justify-around items-center">
-    <div>Login</div>
-    <div>Register</div>
-    <div class="flex">
-        <div>
-            <img src="{{asset('images/insta.png')}}" alt="" class="">
+<div class="container mx-auto bg-indigo-900 text-white flex justify-around items-center ">
+    <div class="mx-2">Login</div>
+    <div class="mx-2">Register</div>
+    <div class="container flex justify-end ">
+        <div class="mx-2">
+            <img src="{{asset('images/insta.svg')}}" alt="" class="mt-2">
         </div>
         <div>
-            <img src="{{asset('images/twitter.png')}}" alt="" class="">
+            <img src="{{asset('images/Twitter.svg')}}" alt="" class="mt-2">
         </div>
     </div>
 </div>
