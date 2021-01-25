@@ -9,9 +9,14 @@
     <header>
     </header>
 
-    <div>
-    <button id="buttonAdd" onclick="displayResultAdd()">Carrito de compra</button>
-    </div>
+    <section class="container">
+        <div>
+            <button id="addCart">Añadir al carrito</button>
+            
+        </div>
+
+
+    </section>
 
     <div>
         <img src="" alt="Gafas lectura peglable modelo F5">
