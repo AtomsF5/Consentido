@@ -48,7 +48,6 @@
     </section>
 
     <footer>
-        <div></div>
+        <x-footer/>
     </footer>
-</body>
 </html>
