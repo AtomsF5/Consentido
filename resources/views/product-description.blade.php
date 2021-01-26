@@ -7,22 +7,30 @@
 </head>
 <body>
     <header>
+        <div>
+            <div >
+                <h1 class="text-2xl font-medium mt-7">DETALLE DEL PRODUCTO</h1>
+            </div>
+            <div>
+                <img src="{{asset('images/LogoConSentido.png')}}" alt="Logo de ConSentido" class="w-32 h-24 ml-3 mt-3">
+            </div>
+        </div>
     </header>
+
+    
+
+    <div>
+        <img src="https://www.magnicenter.com/wp-content/uploads/2020/05/montana-gafas-de-lectura-720x491.jpg" alt="Gafas lectura peglable modelo F5">
+    </div>
 
     <section class="container">
         <div>
             <button id="addCart">Añadir al carrito</button>
             
         </div>
-
-
     </section>
 
-    <div>
-        <img src="" alt="Gafas lectura peglable modelo F5">
-    </div>
-
-    <h3>Lista detallada características producto</h3>
+    <h3>Lista detallada de características del producto</h3>
 
 <div role="list">
     <div role="listitem"><span aria-label="1"></span> Tamaño de la lente – 58 mm x 35 mm x 132 mm Ancho total</div>
