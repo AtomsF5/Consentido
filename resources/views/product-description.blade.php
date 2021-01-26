@@ -26,12 +26,8 @@
     <section class="container">
         <div>
             <button id="addCart">Añadir al carrito</button>
-<<<<<<< HEAD:resources/views/product-description.blade.php
-            </div>
-=======
             
         </div>
->>>>>>> 879e6b1fe504403dffd7328b4afc4fa2a6f676c9:resources/views/product-description.blade.php
     </section>
 
     <h3>Lista detallada de características del producto</h3>
