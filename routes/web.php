@@ -13,17 +13,14 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-<<<<<<< Updated upstream
 Route::get('/', function () {
     return view('welcome');
-=======
 // Route::get('/', function () {
 //     return view('welcome');
 // });
 
 Route::get('/', function () {
     return view('product-description');
->>>>>>> Stashed changes
 });
 
 Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {
