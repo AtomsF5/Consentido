@@ -12,10 +12,7 @@
     <section class="container">
         <div>
             <button id="addCart">Añadir al carrito</button>
-            
-        </div>
-
-
+            </div>
     </section>
 
     <div>
