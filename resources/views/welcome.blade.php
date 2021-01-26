@@ -17,7 +17,7 @@
     </div>
 </header>
 <body>
-    <section class="py-5 px-5">
+    <section class="py-5 px-5 flex flex-col h-screen justify-between">
         <div>
             <a href="#" class=""><img class="bg-indigo-900 px-5 py-1 text-white rounded-sm" src="{{asset('images/NOSOTROS.svg')}}" alt="Plataforma de venta de productos para personas con discapacidades visuales, esperamos la disfrutes."></a>
         </div>
@@ -30,10 +30,10 @@
             <p>Categoria 1</p>
 
             <div>
-               
+
                 <div>
                     <img src="https://www.magnicenter.com/wp-content/uploads/2017/11/lupa-convertible_03_1.jpg" alt="Gafas lectura plegable modelo F5">
-                   
+
                 </div>
                 <span>
                     <span>
