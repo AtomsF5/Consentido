@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="{{ mix('css/app.css') }}">
     <title>Bienvenidos</title>
 </head>
-<body>
+<body class="flex flex-col h-screen justify-between">
     <header class="flex justify-center items-center">
         <div>
             <div >
@@ -17,7 +17,7 @@
             </div>
         </div>
     </header>
-    <section class="py-5 px-5 flex flex-col h-screen justify-between">
+    <section class="p-5">
 
 
             <a href="#" class=""><img class="bg-indigo-900 px-5 py-1 text-white rounded-sm" src="{{asset('images/NOSOTROS.svg')}}" alt="Plataforma de venta de productos para personas con discapacidades visuales, esperamos la disfrutes."></a>
