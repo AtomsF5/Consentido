@@ -2,6 +2,8 @@
 
 use Illuminate\Support\Facades\Route;
 
+use App\Http\Controllers\ContactanosController;
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -21,12 +23,10 @@ Route::get('/', function () {
 //     return view('product-description');
 // });
 
-Route::get('contactanos', function () {
-
-
-})->name('contactanos.index');
-
 Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {
     return view('dashboard');
 })->name('dashboard');
+
+
+Route::get('contactanos', [ContactanosController::class, 'index'])->name('contactanos.index');
 
