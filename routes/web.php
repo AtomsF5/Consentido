@@ -23,6 +23,7 @@ Route::get('/', function () {
 
 Route::get('contactanos', function () {
 
+
 })->name('contactanos.index');
 
 Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {
