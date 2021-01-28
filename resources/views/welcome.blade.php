@@ -47,6 +47,10 @@
         </div>
     </section>
 
+    <section class="flex justify-end mx-3 uppercase mb-0">
+        <a href="{{route('contactanos.index')}}">Contáctanos</a>
+    </section>
+
     <footer>
         <x-footer/>
     </footer>
