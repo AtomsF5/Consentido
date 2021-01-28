@@ -10,11 +10,11 @@
     font-family: 'IBM Plex Sans', sans-serif;
     background-color:#2B317F;
     color:#ffffff;
-    font-weight:800;
-    font-size: 120%;
+    font-weight:600;
+    font-size: 100%;
     border-radius: 0.2em;
     width: 15em;
-    height: 3,8em;
+    height: 5em;
     letter-spacing: 0.28em;
     word-spacing: 0.2em;
     box-shadow: 5px 5px 5px #9cacbe;
@@ -22,13 +22,29 @@
     align-items: center; 
     text-align: center;
     max-width: 100%;
+    line-height: 3;
    
     }
     
 a:link, a:visited, a:active {
     text-decoration: none;
+
 }
 
 a {
     padding: 5px;
+    
 }
+
+/* @media only screen and (max-width: 420px){
+   a {
+       font-weight:900;
+       font-size: 60%;
+       padding: 12px;
+     } */
+   
+
+   /* @media only screen and (max-width: 600px) {
+    #boton-calcular {
+    font-size:11px}
+    } */
