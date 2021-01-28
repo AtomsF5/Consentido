@@ -19,10 +19,8 @@
     <x-category/>
 
     <x-anadircompra/>
-    
-    <footer>
-        <div></div>
-    </footer>
+
+    <x-footer/>
 </body>
 
 </html>
