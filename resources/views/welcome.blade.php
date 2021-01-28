@@ -17,7 +17,6 @@
         </div>
     </section>
 
-    <!-- Creo que aquí va un foreach -->
     <x-category/>
 
     <footer>
