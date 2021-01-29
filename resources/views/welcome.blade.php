@@ -15,12 +15,10 @@
 <body>    
     <x-enlacecompra/>
     
-        <!-- Creo que aquí va un foreach -->
+       
     <x-category/>
 
-    <x-anadircompra/>
-
-    <x-footer/>
+    
 </body>
 
 </html>
