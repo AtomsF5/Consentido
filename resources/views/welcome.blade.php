@@ -15,9 +15,11 @@
 <body>    
     <x-enlacecompra/>
     
-       
+  
+
     <x-category/>
 
+    <x-footer/>
     
 </body>
 
