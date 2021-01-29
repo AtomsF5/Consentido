@@ -17,7 +17,7 @@ class CategoryController extends Controller
     {
         $categories= Category::all();
         dd($categories);
-        return view("components.categories.index",compact('categories'));
+        return view("category.index",compact('categories'));
     }
 
     /**

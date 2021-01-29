@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\Admin\CategoryController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -16,10 +17,11 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {return view('welcome');});
 
 Route::group(['prefix'=>'admin','middleware'=>'auth'], function(){
-    Route::resource('/categories', 'Admin\CategoryController',['as'=>'admin']);
+    Route::resource('/category', CategoryController::class);
 });
 
 
 Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {
     return view('dashboard');
 })->name('dashboard');
+
