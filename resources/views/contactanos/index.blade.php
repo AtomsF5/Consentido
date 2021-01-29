@@ -32,6 +32,9 @@
         </form>
         <option value="211"></option>
     </section>
+    <section class="flex justify-end mx-3 uppercase mb-0">
+        <a href="{{route('contactanos.index')}}">volver al inicio</a>
+    </section>
     <footer>
         <x-footer/>
     </footer>
