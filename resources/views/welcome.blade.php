@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="{!! asset('css/category.css') !!}">
     <link rel="stylesheet" href="{!! asset('css/enlacecompra.css') !!}">
     <link rel="stylesheet" href="{!! asset('css/anadircompra.css') !!}">
-    <title>Bienvenido a ConSentido, la plataforma de venta de productos para personas con discapacidades visuales, esperamos la disfrutes.Alvaro no escibas en chat</title>
+    <title>Bienvenido a ConSentido, la plataforma de venta de productos para personas con discapacidades visuales, esperamos la disfrutes.</title>
 </head>
 <body class="flex flex-col h-screen justify-between">
     

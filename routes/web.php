@@ -19,14 +19,14 @@ use App\Http\Controllers\ContactanosController;
 //     return view('welcome');
 // });
 
-// Route::get('/', function () {
-//     return view('product-description');
-// });
+Route::get('/', function () {
+    return view('product-description');
+});
 
 Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {
     return view('dashboard');
 })->name('dashboard');
 
 
-Route::get('contactanos', [ContactanosController::class, 'index'])->name('contactanos.index');
+// Route::get('contactanos', [ContactanosController::class, 'index'])->name('contactanos.index');
 
