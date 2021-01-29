@@ -8,22 +8,16 @@
 
 #cart{
     font-family: 'IBM Plex Sans', sans-serif;
-    background-color:#2B317F;
     color:#ffffff;
     font-weight:600;
     font-size: 100%;
-    border-radius: 0.2em;
-    /* width: 15em;
-    height: 20em; */
     letter-spacing: 0.28em;
     word-spacing: 0.2em;
-    box-shadow: 5px 5px 5px #9cacbe;
     margin: auto; 
     align-items: center; 
     text-align: center;
     max-width: 100%;
-    line-height: 3;
-   
+       
     }
     
 a:link, a:visited, a:active {
@@ -31,10 +25,11 @@ a:link, a:visited, a:active {
 
 }
 
-a {
+.linkshoppingcart {
     padding: 5px;
     
 }
+
 
 /* @media only screen and (max-width: 420px){
    a {
