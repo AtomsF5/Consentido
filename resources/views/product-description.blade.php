@@ -6,7 +6,6 @@
     <link rel="stylesheet" href="{{ mix('css/app.css') }}">
     <link rel="stylesheet" href="{!! asset('css/enlacecompra.css') !!}">
     <link rel="stylesheet" href="{!! asset('css/anadircompra.css') !!}">
-    
     <title>Descripción de producto</title>
 </head>
 
