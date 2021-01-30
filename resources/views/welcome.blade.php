@@ -10,17 +10,17 @@
     <title>Bienvenido a ConSentido, la plataforma de venta de productos para personas con discapacidades visuales, esperamos la disfrutes.</title>
 </head>
 <body class="flex flex-col h-screen justify-between">
-    
+
     <x-header/>
-    
+
     <x-enlacecompra/>
 
     <x-category/>
 
     <section class="flex justify-end mx-3 uppercase mb-0">
-        <a href="{{route('contactanos.index')}}">Contáctanos</a>
+        <a href="{{route('contactanos.index')}}" class="{{request()->routeIs('contactanos.index') ? 'active' : ''}}">Contáctanos</a>
     </section>
-    
+
     <x-footer/>
-    
+
 </html>
