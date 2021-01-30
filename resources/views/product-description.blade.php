@@ -20,7 +20,7 @@
     <section class="detailedproductimage">
 
     <div>
-        <img id="productimage" src="https://www.magnicenter.com/wp-content/uploads/2020/05/montana-gafas-de-lectura-720x491.jpg" alt="Gafas lectura pleglable modelo F5">
+        <img id="productimage" src="https://www.magnicenter.com/wp-content/uploads/2020/05/montana-gafas-de-lectura-720x491.jpg" alt="Gafas lectura plegable modelo F5">
     </div>
 
     </section>
