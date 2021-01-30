@@ -8,6 +8,7 @@
 </head>
 <body>
     <h1>correo electronico</h1>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla animi aut laboriosam vitae esse reprehenderit itaque, sint quasi cum iure explicabo illo inventore, nostrum voluptas fuga magni quod eligendi accusantium!</p>
+    <p><strong>Mensaje:</strong>{{$contacto['mensaje']}}</p>
+    <p><strong>Telefono:</strong>{{$contacto['telefono']}}</p>
 </body>
 </html>
