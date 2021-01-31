@@ -3,6 +3,8 @@
 use Illuminate\Support\Facades\Route;
 
 use App\Http\Controllers\ContactanosController;
+use App\Mail\ContactanosMailable;
+use Illuminate\Support\Facades\Mail;
 
 /*
 |--------------------------------------------------------------------------
@@ -19,6 +21,10 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+Route::get('/product-description', function () {
+    return view('product-description');
+});
+
 // Route::get('/', function () {
 //     return view('product-description');
 // });
@@ -29,4 +35,7 @@ Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {
 
 
 Route::get('contactanos', [ContactanosController::class, 'index'])->name('contactanos.index');
+
+Route::post('contactanos', [ContactanosController::class, 'store'])->name('contactanos.store');
+
 
