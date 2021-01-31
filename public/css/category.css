@@ -38,12 +38,12 @@
     border-top-left-radius: 2%;
 }
 
-a {
+.categoria {
     font-family: 'IBM Plex Sans', sans-serif;
     font-size: 0.9em;
     text-decoration: none;
     font-weight: bold;
-    color: #2B317F;
+    color:#2B317F;
 }
 
 /* Responsive */
