@@ -21,9 +21,9 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/product-description', function () {
-    return view('product-description');
-});
+// Route::get('/product-description', function () {
+//     return view('product-description');
+// });
 
 // Route::get('/', function () {
 //     return view('product-description');
