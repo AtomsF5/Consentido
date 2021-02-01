@@ -21,7 +21,7 @@ use Illuminate\Support\Facades\Mail;
 Route::get('/', function () {return view('welcome');});
 
 Route::group(['prefix'=>'admin'], function(){
-    Route::resource('/category', CategoryController::class);
+    Route::resource('/categorias', CategoryController::class);
 });
 
 Route::get('/product-description', function () {
