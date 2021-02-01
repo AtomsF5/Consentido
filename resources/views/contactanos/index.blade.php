@@ -13,39 +13,32 @@
         <img src="{{asset('images/LogoConSentido.png')}}" alt="Logo de ConSentido" class="w-32 h-24 ml-3 mt-3">
     </header>
 
-    <section class="p-5 flex flex-col h-screen justify-between">
-        <p>Queremos mejorar su experiencia de navegación en nuestra página. Haznos saber tu requerimiento o sugerencia. Escríbenos</p>
+    <section class="mx-3 p-5 flex flex-col  justify-between">
+        <p class="mb-2">Queremos mejorar su experiencia de navegación en nuestra página. Haznos saber tu requerimiento o sugerencia. Escríbenos</p>
+
         <form action="{{route('contactanos.store')}}" method="POST">
 
             @csrf
 
             <label>
-                Mensaje
+                Mensaje:
             </label>
-            <textarea name="mensaje" rows="5" cols="27" maxlength="150"></textarea>
+            <textarea name="mensaje" rows="5" cols="30" class="max-w-xsn mb-2"></textarea>
 
-            @if ($errors->has('mensaje'))
-                <small class="form-text text-danger">
-                    {{ $errors->first('mensaje') }}
-                </small>
-            @endif
+
 
             <label>
                 Déjanos tu número de teléfono:
             </label>
             <input type="tel" placeholder="923 456 789" size="9" alt="insertar número de teléfono" name="telefono">
-            @if ($errors->has('telefono'))
-                <small class="form-text text-danger">
-                    {{ $errors->first('telefono') }}
-                </small>
-            @endif
+
 
             <button type="submit">Enviar mensaje</button>
 
         </form>
     </section>
 
-    <section class="flex justify-end mx-3 uppercase mb-0">
+    <section class="flex justify-end mx-3 uppercase">
         <a href="{{('/')}}">volver a inicio</a>
     </section>
 
