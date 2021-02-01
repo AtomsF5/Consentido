@@ -1,16 +1,8 @@
-.addshoppingcart{
-    /* display:inline-flex;
-    justify-items: center;
-    border: 5px solid chartreuse;
-    /* display: flex;
-    margin: auto; */
-   }
-
- #addCart{
+#addCart{
     font-family: 'IBM Plex Sans', sans-serif;
-    background-color:#2B317F;
+    background-color:#312e81;
     color:#ffffff;
-    font-weight:800;
+    font-weight:600;
     font-size: 120%;
     border-radius: 0.2em;
     width: 15em;

@@ -8,7 +8,7 @@ git clone https://github.com/AtomsF5/Consentido.git
 
 # Configuration Project
 
-- create archive to the project .env
+-   create archive to the project .env
 
 ```
 composer install
@@ -25,9 +25,11 @@ npm install
 ```
 npm run dev
 ```
-- create database
-```
+
+-   create database
+
 create database in phpMyAdmin
+
 ```
 php artisan migrate
 ```

@@ -8,27 +8,20 @@
 
 #cart{
     font-family: 'IBM Plex Sans', sans-serif;
-    background-color:#2B317F;
     color:#ffffff;
-    font-weight:800;
-    font-size: 120%;
-    border-radius: 0.2em;
-    width: 15em;
-    height: 3,8em;
+    font-weight:600;
+    font-size: 100%;
     letter-spacing: 0.28em;
     word-spacing: 0.2em;
-    box-shadow: 5px 5px 5px #9cacbe;
     margin: auto; 
     align-items: center; 
     text-align: center;
     max-width: 100%;
-   
+       
     }
     
 a:link, a:visited, a:active {
     text-decoration: none;
+
 }
 
-a {
-    padding: 5px;
-}
