@@ -23,17 +23,22 @@
                 Mensaje
             </label>
             <textarea name="mensaje" rows="5" cols="27" maxlength="150"></textarea>
-            alidaciones, y lo aremos de la siguiente manera en el formulario (esta es la forma individual)
 
-@if ($errors->has('mensaje'))
-    <small class="form-text text-danger">
-        {{ $errors->first('mensaje') }}
-     </small>
-@endif
+            @if ($errors->has('mensaje'))
+                <small class="form-text text-danger">
+                    {{ $errors->first('mensaje') }}
+                </small>
+            @endif
+
             <label>
                 Déjanos tu número de teléfono:
             </label>
-            <input type="tel" placeholder="923 456 789" size="7" alt="insertar número de teléfono" name="telefono">
+            <input type="tel" placeholder="923 456 789" size="9" alt="insertar número de teléfono" name="telefono">
+            @if ($errors->has('telefono'))
+                <small class="form-text text-danger">
+                    {{ $errors->first('telefono') }}
+                </small>
+            @endif
 
             <button type="submit">Enviar mensaje</button>
 
