@@ -6,6 +6,7 @@ use Illuminate\Http\Request;
 
 use App\Mail\ContactanosMailable;
 use Illuminate\Support\Facades\Mail;
+use App\Http\Requests\ValidarFormularioRequest;
 
 class ContactanosController extends Controller
 {
@@ -13,7 +14,7 @@ class ContactanosController extends Controller
         return view(('contactanos.index'));
     }
 
-    public function store(Request $request){
+    public function store(ValidarFormularioRequest $request){
 
         $correo =new ContactanosMailable($request->all());
 
