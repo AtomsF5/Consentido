@@ -24,12 +24,8 @@ class ValidarFormularioRequest extends FormRequest
     public function rules()
     {
         return [
-            'mensaje.required'   => 'El mensaje es obligatorio.',
-            'mensaje.min'        => 'El mensaje debe contener min 30 letra.',
-            'mensaje.max'        => 'El mensaje debe contener max 500 letras.',
-
-            'telefono.required'   => 'El telefono es obligatorio.',
-            'telefono'        => 'El telefono debe contener 9 digitos.',
+            'mensaje' => 'required|min:100|max:250',
+            'telefono' => 'required|min:9|max:9'
         ];
     }
 }
