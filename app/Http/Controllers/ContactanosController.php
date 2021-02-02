@@ -20,6 +20,6 @@ class ContactanosController extends Controller
 
         Mail::to('jorge.tm.ink@gmail.com')->send($correo);
 
-        return "Mensaje enviado";
+        return view(('contactanos.index'));
     }
 }
