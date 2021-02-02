@@ -23,17 +23,17 @@
             <label>
                 Mensaje:
             </label>
-            <textarea name="mensaje" rows="5" cols="30" class="max-w-xsn mb-2"></textarea>
+            <textarea name="mensaje" rows="5" cols="30" class="mb-2 rounded"></textarea>
 
 
 
             <label>
                 Déjanos tu número de teléfono:
             </label>
-            <input type="tel" placeholder="923 456 789" size="9" alt="insertar número de teléfono" name="telefono">
+            <input type="tel" placeholder="923 456 789" size="9" alt="insertar número de teléfono" name="telefono" class="rounded">
 
 
-            <button type="submit">Enviar mensaje</button>
+            <button type="submit" class="bg-blue-900 text-white p-2 rounded">Enviar mensaje</button>
 
         </form>
     </section>

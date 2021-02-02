@@ -1,6 +1,6 @@
 <div class="m-3">
     @if (Route::has('login'))
-    <div class="container mx-auto bg-indigo-900 text-white flex justify-around items-center rounded-sm">
+    <div class="container mx-auto bg-blue-900 text-white flex justify-around items-center rounded-sm">
         @auth
         <a href="{{ url('/dashboard') }}" class="ml-3">Tablero</a>
         @else
