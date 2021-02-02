@@ -23,28 +23,21 @@
 
             @csrf
 
-            @if ($errors->any())
-                <div class="text-red p-2 bg-black-500">
-                    <ul>
-                        @foreach ($errors->all() as $error)
-                            <li>{{ $error }}</li>
-                        @endforeach
-                    </ul>
-                </div>
-            @endif
-
-            <label>
-                Mensaje:
-            </label>
-            <textarea name="mensaje" rows="5" cols="36" class="mb-2 rounded"></textarea>
+            @error('mensaje')
+                <div>{{ $message }}</div>
+            @enderror
+            <textarea name="mensaje" rows="5" cols="36" class="mb-2 rounded shadow-lg" placeholder="Mensaje:"></textarea>
 
             <label>
                 Déjanos tu número de teléfono:
             </label>
-            <input type="tel" placeholder="### ### ###" size="9" alt="insertar número de teléfono" name="telefono" class="mt-2 mr-3 rounded">
+            <input type="tel" placeholder="### ### ###" size="9" alt="insertar número de teléfono" name="telefono" class="block mx-auto my-2 rounded shadow-lg">
+            @error('telefono')
+                <div>{{ $message }}</div>
+            @enderror
 
 
-            <button type="submit" class="bg-blue-900 text-white p-2 rounded">Enviar mensaje</button>
+            <button type="submit" class="block mx-auto my-3 bg-blue-900 text-white p-2 rounded">Enviar</button>
 
         </form>
     </section>
