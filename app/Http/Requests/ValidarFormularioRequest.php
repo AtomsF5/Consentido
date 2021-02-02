@@ -24,7 +24,7 @@ class ValidarFormularioRequest extends FormRequest
     public function rules()
     {
         return [
-            'mensaje' => 'required|min:100|max:250',
+            'mensaje' => 'required|min:30|max:250',
             'telefono' => 'required|min:9|max:9'
         ];
     }

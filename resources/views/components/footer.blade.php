@@ -2,7 +2,7 @@
     @if (Route::has('login'))
     <div class="container mx-auto bg-blue-900 text-white flex justify-around items-center rounded-sm">
         @auth
-        <a href="{{ url('/dashboard') }}" class="ml-3">Tablero</a>
+        <a href="{{ url('/dashboard') }}" class="ml-3">{{'$user'}}</a>
         @else
         <a href="{{ route('login') }}" class="ml-2">Iniciar</a>
 

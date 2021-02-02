@@ -22,19 +22,21 @@
         <form action="{{route('contactanos.store')}}" method="POST">
 
             @csrf
-
             @error('mensaje')
-                <div>{{ $message }}</div>
+                <x-alert>{{ $message }}</x-alert>
             @enderror
-            <textarea name="mensaje" rows="5" cols="36" class="mb-2 rounded shadow-lg" placeholder="Mensaje:"></textarea>
+            <textarea name="mensaje" rows="5" cols="36" class="rounded shadow-lg w-full overflow-hidden" placeholder="Mensaje:"></textarea>
 
-            <label>
-                Déjanos tu número de teléfono:
-            </label>
-            <input type="tel" placeholder="### ### ###" size="9" alt="insertar número de teléfono" name="telefono" class="block mx-auto my-2 rounded shadow-lg">
-            @error('telefono')
-                <div>{{ $message }}</div>
-            @enderror
+
+            <div class="flex flex-wrap overflow-hidden m-1">
+                <label class="w-1/2 overflow-hidde">
+                    Déjanos tu número de teléfono:
+                </label>
+                <input type="tel" placeholder="### ### ###" size="9" alt="insertar número de teléfono" name="telefono" class="w-1/2 overflow-hidden block my-2 rounded shadow-lg">
+                @error('telefono')
+                    <x-alert>{{ $message }}</x-alert>
+                @enderror
+            </div>
 
 
             <button type="submit" class="block mx-auto my-3 bg-blue-900 text-white p-2 rounded">Enviar</button>
