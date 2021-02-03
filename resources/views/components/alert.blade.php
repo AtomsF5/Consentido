@@ -1,4 +1,4 @@
-<div class="block text-sm text-red-600 bg-red-200 border border-red-400 h-12 flex items-center p-4 rounded-sm relative" role="alert">
+<div class="text-sm text-red-600 bg-red-200 border border-red-400 h-12 flex items-center p-4 rounded-sm relative" role="alert">
     <strong class="mr-1">Holy Sh...t!</strong>
     {{-- {{ $message }} --}}
     <button type="button" data-dismiss="alert" aria-label="Close" onclick="this.parentElement.remove();">
