@@ -26,7 +26,7 @@ Route::get('categorias/subcategorias', function () {
 
 
 Route::group(['prefix'=>'admin'], function(){
-    Route::resource('/categorias', CategoryController::class);
+Route::resource('/categorias', CategoryController::class);
 });
 
 // Route::get('/product-description', function () {
