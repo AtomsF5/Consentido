@@ -13,6 +13,6 @@ class Category extends Model
 
     
     protected $fillable= [
-        'slug', 'title', 'descripction', 'name', 'urlimage', 'visit', 'order', 'coverpage',
+        'title', 'urlimage', 'visit', 'order',
     ];
 }

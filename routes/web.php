@@ -20,9 +20,11 @@ use Illuminate\Support\Facades\Mail;
 
 Route::get('/', function () {return view('welcome');});
 
-Route::get('categorias/subcategorias', function () {
-    return view('subcategories')->name('subcategories');
+
+Route::get('/category/{id}', function ($id) {
+    return view('category')->name('category');
 });
+
 
 Route::group(['prefix'=>'admin'], function(){
     Route::resource('categorias/subcategorias', SubcategoryController::class);

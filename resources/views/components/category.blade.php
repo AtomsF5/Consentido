@@ -2,7 +2,7 @@
     
     <div>        
         <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSsnRuTiXvPvacGPUEO9VmacDE2CQipsUzOzg&usqp=CAU" alt="Imagen relativa a la categoría 1">
-        <a class="categoria" href="#">Acceder a categoría 1</a>
+        <a class="categoria" href="/category/1">Acceder a categoría 1</a>
     </div>
     <div>        
         <img src="https://transferencia.tec.mx/wp-content/uploads/2018/07/Invidente-teclado-Braile-TNA.jpeg" alt="Imagen relativa a la categoría 2">
