@@ -13,7 +13,9 @@ class SubcategoryController extends Controller
      */
     public function index()
     {
-        //
+        $subcategories= Subcategory::all();
+        dd($subcategories);
+        return view("subcategory.index",compact('subcategories'));
     }
 
     /**
