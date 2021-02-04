@@ -39,6 +39,8 @@
 
 <x-anadircompra/>
 
+<x-subcategory/>
+
 <x-contact-us/>
 
 <x-footer/>

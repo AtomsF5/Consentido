@@ -23,9 +23,9 @@ use Illuminate\Support\Facades\Mail;
 Route::get('/', function () {return view('welcome');});
 
 
-Route::get('/category/{id}', function ($id) {
-    return view('category')->name('category');
-});
+// Route::get('/category/{id}', function ($id) {
+//     return view('category')->name('category');
+// });
 
 
 
@@ -56,12 +56,11 @@ Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {
 
 Route::get('contactanos', [ContactanosController::class, 'index'])->name('contactanos.index');
 
-
 Route::post('contactanos', [ContactanosController::class, 'store'])->name('contactanos.store');
 
 Route::get('category/{id}', [CategoryController::class, 'index'])->name('category');
 
 Route::get('subcategory/{id}', [SubcategoryController::class, 'index'])->name('subcategory');
 
-Route::get('product/{id}', [ProductController::class, 'index'])->name('product-description');
+Route::get('product-description/{id}', [ProductController::class, 'index'])->name('product-description');
 

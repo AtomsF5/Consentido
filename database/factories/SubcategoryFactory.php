@@ -2,7 +2,7 @@
 
 namespace Database\Factories;
 
-use App\Models\Category;
+use App\Models\Subcategory;
 use Illuminate\Database\Eloquent\Factories\Factory;
 
 
@@ -27,7 +27,6 @@ class SubcategoryFactory extends Factory
             'urlimage'=> $this->faker->imageUrl(250, 190),
             'visit'=> $this->faker->randomNumber(),
             'order'=> $this->faker->randomNumber(),
-                      
         ];
     }
 }
