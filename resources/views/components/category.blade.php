@@ -22,7 +22,7 @@
     </div>
     <div>        
         <img src="https://rofiles.azureedge.net/urls/grande/tazas-colores-3d-braillebueno-g.jpg" alt="Imagen relativa a la categoría 6">
-        <a class="categoria" href="{{route('subcategories')}}">Acceder a categoría 6</a>
+        <a class="categoria" href="#">Acceder a categoría 6</a>
     </div>
 
 </section>

@@ -4,7 +4,7 @@ namespace App\View\Components;
 
 use Illuminate\View\Component;
 
-class subcategory extends Component
+class ContactUs extends Component
 {
     /**
      * Create a new component instance.
@@ -23,6 +23,6 @@ class subcategory extends Component
      */
     public function render()
     {
-        return view('components.subcategory');
+        return view('components.contact-us');
     }
 }
