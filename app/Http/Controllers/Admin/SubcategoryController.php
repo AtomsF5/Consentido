@@ -17,7 +17,7 @@ class SubcategoryController extends Controller
     {
         $subcategories= Subcategory::all();
         dd($subcategories);
-        return view(('products'));
+        return view(('subcategory'));
     }
 
     /**

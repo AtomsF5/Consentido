@@ -11,13 +11,13 @@
     <body class="flex flex-col h-screen justify-between">
 
         <x-header/>
-    
+
         <x-enlacecompra/>
-    
+
         <x-product/>
-    
+
         <x-contact-us/>
-    
+
         <x-footer/>
 </body>
 </html>

@@ -6,18 +6,18 @@
     <link rel="stylesheet" href="{{ mix('css/app.css') }}">
     <link rel="stylesheet" href="{!! asset('css/enlacecompra.css') !!}">
     <link rel="stylesheet" href="{!! asset('css/subcategory.css') !!}">
-    <title>Página de Categoría</title>
+    <title>Página de Subcategoria</title>
 </head>
     <body class="flex flex-col h-screen justify-between">
 
         <x-header/>
-    
+
         <x-enlacecompra/>
-    
+
         <x-subcategory/>
-    
+
         <x-contact-us/>
-    
+
         <x-footer/>
 </body>
 </html>

@@ -1,6 +1,8 @@
 <?php
 
 use App\Http\Controllers\Admin\CategoryController;
+use App\Http\Controllers\Admin\SubcategoryController;
+use App\Http\Controllers\Admin\ProductController;
 use Illuminate\Support\Facades\Route;
 
 use App\Http\Controllers\ContactanosController;
@@ -59,7 +61,7 @@ Route::post('contactanos', [ContactanosController::class, 'store'])->name('conta
 
 Route::get('category/{id}', [CategoryController::class, 'index'])->name('category');
 
-Route::get('subcategory/{id}', [SubcategoryController::class, 'index'])->name('products');
+Route::get('subcategory/{id}', [SubcategoryController::class, 'index'])->name('subcategory');
 
 Route::get('product/{id}', [ProductController::class, 'index'])->name('product-description');
 
