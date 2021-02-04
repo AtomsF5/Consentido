@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="{{ mix('css/app.css') }}">
     <link rel="stylesheet" href="{!! asset('css/enlacecompra.css') !!}">
     <link rel="stylesheet" href="{!! asset('css/subcategory.css') !!}">
-    <title>Página de Subcategorías</title>
+    <title>Página de Categoría</title>
 </head>
     <body class="flex flex-col h-screen justify-between">
 

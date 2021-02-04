@@ -4,7 +4,7 @@ use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
 
-class CreateCategoriesTable extends Migration
+class CreateSubcategoriesTable extends Migration
 {
     /**
      * Run the migrations.
@@ -13,7 +13,7 @@ class CreateCategoriesTable extends Migration
      */
     public function up()
     {
-        Schema::create('categories', function (Blueprint $table) {
+        Schema::create('subcategories', function (Blueprint $table) {
             $table->increments('id');
             $table->string('title',67);
             $table->string('urlimage',100)->default('foto.jpg');
@@ -21,6 +21,7 @@ class CreateCategoriesTable extends Migration
             $table->integer('order')->default(0);
             $table->timestamps();
         });
+    
     }
 
     /**
@@ -30,6 +31,6 @@ class CreateCategoriesTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('categories');
+        Schema::dropIfExists('subcategories');
     }
 }
