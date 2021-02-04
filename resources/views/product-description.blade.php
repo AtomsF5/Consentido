@@ -39,9 +39,7 @@
 
 <x-anadircompra/>
 
-<section class="flex justify-end mx-3 uppercase mb-0">
-    <a href="{{route('contactanos.index')}}">Contáctanos</a>
-</section>
+<x-contact-us/>
 
 <x-footer/>
 
