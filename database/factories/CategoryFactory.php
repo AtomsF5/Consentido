@@ -23,7 +23,6 @@ class CategoryFactory extends Factory
     public function definition()
     {
         return [ 
-            
             'title'=> $this->faker->sentence(2),
             'descripction'=> $this->faker->sentence(5),
             'urlimage'=> $this->faker->imageUrl(250, 190),
