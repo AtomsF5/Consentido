@@ -22,7 +22,11 @@
     <div>        
         <img src="https://rofiles.azureedge.net/urls/grande/tazas-colores-3d-braillebueno-g.jpg" alt="Imagen relativa a la categoría 6">
         <a class="categoria" href="#">Acceder a categoría 6</a>
+<<<<<<< HEAD
     </div>    
+=======
+    </div>
+>>>>>>> 7bb75d3270e7e84e3ec591f35382e58fba1a7e75
 
 </section>
 
