@@ -26,6 +26,12 @@ Route::get('/category/{id}', function ($id) {
 });
 
 
+
+
+
+
+
+
 Route::group(['prefix'=>'admin'], function(){
     Route::resource('categorias/subcategorias', SubcategoryController::class);
     });
@@ -41,6 +47,9 @@ Route::get('subcategorias/descripcion de producto', function () {
 Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {
     return view('dashboard');
 })->name('dashboard');
+
+
+
 
 
 Route::get('contactanos', [ContactanosController::class, 'index'])->name('contactanos.index');
