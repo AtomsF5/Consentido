@@ -18,15 +18,18 @@ use Illuminate\Support\Facades\Mail;
 |
 */
 
-// Route::get('/', function () {return view('welcome');});
+Route::get('/', function () {return view('welcome');});
 
-Route::get('categorias/subcategorias', function () {
-    return view('subcategories')->name('subcategories');
-});
-
+// Route::get('categorias/subcategorias', function () {
+//     return view('subcategories')->name('subcategories');
+// });
 
 Route::group(['prefix'=>'admin'], function(){
-Route::resource('/categorias', CategoryController::class);
+    Route::resource('categorias/subcategorias', SubcategoryController::class);
+    });
+
+Route::group(['prefix'=>'admin'], function(){
+    Route::resource('/categorias', CategoryController::class);
 });
 
 // Route::get('/product-description', function () {
