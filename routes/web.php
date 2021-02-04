@@ -49,5 +49,8 @@ Route::get('contactanos', [ContactanosController::class, 'index'])->name('contac
 Route::post('contactanos', [ContactanosController::class, 'store'])->name('contactanos.store');
 
 Route::get('category/{id}', [CategoryController::class, 'index'])->name('category');
+
 Route::get('subcategory/{id}', [SubcategoryController::class, 'index'])->name('products');
+
+Route::get('product/{id}', [ProductController::class, 'index'])->name('product-description');
 
