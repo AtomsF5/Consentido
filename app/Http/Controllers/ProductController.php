@@ -1,12 +1,10 @@
 <?php
 
-namespace App\Http\Controllers\Admin;
+namespace App\Http\Controllers;
 
-use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
-use App\Models\Category;
 
-class CategoryController extends Controller
+class ProductController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -15,8 +13,7 @@ class CategoryController extends Controller
      */
     public function index()
     {
-        $categories= Category::all();
-        return view(('category'));
+        return view(('product-description'));
     }
 
     /**

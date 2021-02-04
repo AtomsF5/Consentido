@@ -2,7 +2,9 @@
 
 namespace App\Http\Controllers\Admin;
 
+use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
+use App\Models\Subcategory;
 
 class SubcategoryController extends Controller
 {
@@ -15,7 +17,7 @@ class SubcategoryController extends Controller
     {
         $subcategories= Subcategory::all();
         dd($subcategories);
-        return view("subcategory.index",compact('subcategories'));
+        return view(('products'));
     }
 
     /**
