@@ -20,15 +20,15 @@ use Illuminate\Support\Facades\Mail;
 
 Route::get('/', function () {return view('welcome');});
 
-Route::group(['prefix'=>'admin'], function(){
-    Route::resource('/categorias', CategoryController::class);
-});
+// Route::get('categorias/subcategorias', function () {
+//     return view('subcategories')->name('subcategories');
+// });
 
-Route::get('/product-description', function () {
-    return view('product-description');
-});
+// Route::group(['prefix'=>'admin'], function(){
+//     Route::resource('/categorias', CategoryController::class);
+// });
 
-// Route::get('/', function () {
+// Route::get('/product-description', function () {
 //     return view('product-description');
 // });
 

@@ -5,6 +5,7 @@ namespace Database\Factories;
 use App\Models\Category;
 use Illuminate\Database\Eloquent\Factories\Factory;
 
+
 class CategoryFactory extends Factory
 {
     /**
@@ -22,13 +23,12 @@ class CategoryFactory extends Factory
     public function definition()
     {
         return [ 
-            'slug'=> $this->faker->text,
             'title'=> $this->faker->sentence(2),
             'descripction'=> $this->faker->sentence(5),
             'urlimage'=> $this->faker->imageUrl(250, 190),
             'visit'=> $this->faker->randomNumber(),
             'order'=> $this->faker->randomNumber(),
-            //'coverpage'$this->faker->            
+                      
         ];
     }
 }

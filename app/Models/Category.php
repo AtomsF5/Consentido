@@ -7,14 +7,12 @@ use Illuminate\Database\Eloquent\Model;
 
 class Category extends Model
 {
-    /*use HasFactory;*/
+    use HasFactory;
 
-    // protected $guarded = [];
+    protected $guarded = [];
+
     
-    // public function subcategory(){
-    //     return $this->hasMany('App\Category', 'parent_id');
-
     protected $fillable= [
-        'slug', 'title', 'descripction', 'name', 'urlimage', 'visit', 'order', 'coverpage'
+        'slug', 'title', 'descripction', 'name', 'urlimage', 'visit', 'order', 'coverpage',
     ];
 }
