@@ -1,12 +1,10 @@
 <?php
 
-namespace App\Http\Controllers\Admin;
+namespace App\Http\Controllers;
 
-use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
-use App\Models\Subcategory;
 
-class SubcategoryController extends Controller
+class ProductController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -15,9 +13,7 @@ class SubcategoryController extends Controller
      */
     public function index()
     {
-        $subcategories= Subcategory::all();
-        dd($subcategories);
-        return view(('products'));
+        return view(('product-description'));
     }
 
     /**
