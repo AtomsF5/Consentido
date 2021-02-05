@@ -1,0 +1,32 @@
+<?php
+
+namespace Database\Factories;
+
+use App\Models\Subcategory;
+use Illuminate\Database\Eloquent\Factories\Factory;
+
+
+class SubcategoryFactory extends Factory
+{
+    /**
+     * The name of the factory's corresponding model.
+     *
+     * @var string
+     */
+    protected $model = Subcategory::class;
+
+    /**
+     * Define the model's default state.
+     *
+     * @return array
+     */
+    public function definition()
+    {
+        return [ 
+            'title'=> $this->faker->sentence(2),
+            'urlimage'=> $this->faker->imageUrl(250, 190),
+            'visit'=> $this->faker->randomNumber(),
+            'order'=> $this->faker->randomNumber(),
+        ];
+    }
+}

@@ -1,0 +1,28 @@
+<section class="products">
+
+    <div>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSsnRuTiXvPvacGPUEO9VmacDE2CQipsUzOzg&usqp=CAU" alt="Imagen relativa a la producto 1">
+        <a class="product" href="product-description/1">Acceder a producto 1</a>
+    </div>
+    <div>
+        <img src="https://transferencia.tec.mx/wp-content/uploads/2018/07/Invidente-teclado-Braile-TNA.jpeg" alt="Imagen relativa a la producto 2">
+        <a class="product" href="#">Acceder a producto 2</a>
+    </div>
+    <div>
+        <img src="https://2.bp.blogspot.com/-GzY_LnrGKiw/VDz4pay70AI/AAAAAAAAA4E/rFjSp-lIxoM/s1600/fingerreader.jpg" alt="Imagen relativa a la producto 3">
+        <a class="product" href="#">Acceder a producto 3</a>
+    </div>
+    <div>
+        <img src="https://www.compromisoempresarial.com/wp-content/uploads/2018/07/nuevas-tecnologias-discapacidad-empleo-adecco-.jpg" alt="Imagen relativa a la producto 4">
+        <a class="product" href="#">Acceder a producto 4</a>
+    </div>
+    <div>
+        <img src="https://e00-marca.uecdn.es/assets/multimedia/imagenes/2018/09/19/15373359858916.jpg" alt="Imagen relativa a la producto 5">
+        <a class="product" href="#">Acceder a producto 5</a>
+    </div>
+    <div>
+        <img src="https://rofiles.azureedge.net/urls/grande/tazas-colores-3d-braillebueno-g.jpg" alt="Imagen relativa a la producto 6">
+        <a class="product" href="#">Acceder a producto 6</a>
+    </div>
+
+</section>
